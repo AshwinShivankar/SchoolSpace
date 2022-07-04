@@ -1,13 +1,749 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+/* School Space */
+
+.schoolSpace {
+  position: absolute;
+  width: 218px;
+  height: 78px;
+  left: 79px;
+  top: 46px;
+  font-family: "Passion One";
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 2rem !important;
+  line-height: 42px;
+  text-align: center;
+  color: #2ca4d8;
+  line-height: 1;
+}
+.vector {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 8.33%;
+  bottom: 4.17%;
+
+  /* text */
+
+  border: 0.5px solid #333333;
+}
+
+.box {
+  position: absolute;
+  width: 60px;
+  height: 48px;
+  left: 30px;
+  top: 40px;
+
+  background: #ffbf3f;
+  border-radius: 8px;
+}
+
+/* Rectangle 170 */
+
+.Rectangle {
+  position: absolute;
+  width: 288px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.05),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.05), 0px 3px 14px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Line 1 */
+
+.line1 {
+  position: absolute;
+  width: 240px;
+  height: 0px;
+  left: 24px;
+  top: 128px;
+
+  border: 1px solid #d3d6db;
+}
+/* Dashboard */
+
+.Dashboard {
+  position: absolute;
+  width: 78px;
+  height: 18px;
+  left: 84px;
+  top: 185px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #242424;
+}
+.Dashboardimg {
+  position: absolute;
+  left: -44.5%;
+  right: 12.5%;
+  top: 17.5%;
+  bottom: 15.5%;
+}
+/* Courses */
+
+.Courses {
+  position: absolute;
+  width: 56px;
+  height: 18px;
+  left: 84px;
+  top: 234px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #242424;
+}
+.Coursesimg {
+  position: absolute;
+  left: -53.09%;
+  right: 3.91%;
+  top: 22.21%;
+  bottom: 16.21%;
+}
+/* Students */
+
+.Students {
+  position: absolute;
+  width: 66px;
+  height: 18px;
+  left: 84px;
+  top: 277px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #2ca4d8;
+}
+.Studentsimg {
+  position: absolute;
+  left: 15.16%;
+  right: 73.09%;
+  top: 26.33%;
+  bottom: 71.28%;
+}
+.Student {
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  left: 24px;
+  top: 263px;
+
+  background: #2ca4d8;
+  opacity: 0.1;
+  border-radius: 10px;
+}
+
+/* Exams */
+
+.Exams {
+  position: absolute;
+  width: 47px;
+  height: 18px;
+  left: 84px;
+  top: 330px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #242424;
+}
+.Examsimg {
+  position: absolute;
+  left: -58.88%;
+  right: 0.13%;
+  top: 31.47%;
+  bottom: 5.47%;
+}
+/* Results */
+
+.Results {
+  position: absolute;
+  width: 52px;
+  height: 18px;
+  left: 84px;
+  top: 378px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #242424;
+}
+.Resultsimg {
+  position: absolute;
+  left: -42.38%;
+  right: 14.63%;
+  top: 36.25%;
+  bottom: 6.25%;
+}
+
+/* Notice Board */
+
+.Notice {
+  position: absolute;
+  width: 92px;
+  height: 18px;
+  left: 84px;
+  top: 432px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #242424;
+}
+.Noticeimg {
+  position: absolute;
+  width: 23.69px;
+  height: 20.82px;
+  left: 48.15px;
+  top: 426.09px;
+}
+
+/* Live Classes */
+
+.Live {
+  position: absolute;
+  width: 83px;
+  height: 18px;
+  left: 84px;
+  top: 479px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #242424;
+}
+.Liveimg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 47px;
+  top: 475px;
+}
+/* Notifications */
+
+.Notifications {
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: 84px;
+  top: 534px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #242424;
+}
+.Notificationsimg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 48px;
+  top: 527px;
+}
+/* Square 168 */
+
+.Square {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 911px;
+  height: 854px;
+  left: 312px;
+  top: 110px;
+
+  background: #ffffff;
+  border: 1px solid #e2e5eb;
+  border-radius: 10px;
+}
+
+/* Students */
+
+.Studentsrgt {
+  position: absolute;
+  width: 95px;
+  height: 24px;
+  left: 312px;
+  top: 51px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #242424;
+}
+/* Button */
+
+/* Auto layout */
+.Button {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 170px;
+  height: 76px;
+  left: 1077px;
+  top: 33px;
+}
+.Table1 {
+  position: absolute;
+  width: 912px;
+  height: 44px;
+  left: -2px;
+  top: -1px;
+  background: #f1f4f8;
+  border-radius: 10px 10px 0px 0px;
+  line-height: 2.5;
+  /* opacity: 0.7; */
+  color: rgba(6, 5, 5, 0.613);
+  z-index: 2;
+}
+
+table {
+  /* width: 800px;
+  height: 200px; */
+  position: absolute;
+  width: 785px;
+}
+
+th {
+}
+
+td {
+  text-align: center;
+}
+
+.pass {
+  display: initial;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+
+  width: 62px;
+  height: 20px;
+  left: 824px;
+  top: 155px;
+  color: #f1f4f8;
+
+  background: #2cbf6e;
+
+  border-radius: 16px;
+}
+.fail {
+  display: initial;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+  opacity: none !important;
+  width: 62px;
+  height: 20px;
+  left: 824px;
+  top: 155px;
+  color: #f1f4f8;
+
+  background: #f24643 !important;
+
+  border-radius: 16px;
+}
+.Excellent {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #2cbf6e;
+}
+.Poor {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #f24643;
+}
+.Average {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #2ca4d8;
+}
+.Grey {
+  position: absolute;
+  width: 912px;
+  height: 44px;
+  left: -2px;
+  top: 411px;
+  background: #f1f4f8;
+  border-radius: 10px 10px 0px 0px;
+  line-height: 3;
+  /* opacity: 0.7; */
+  color: rgba(6, 5, 5, 0.613);
+  opacity: 0.5;
+}
+.edit {
+  position: absolute;
+  left: 106.5%;
+  right: -3.85%;
+  /* bottom: 144px; */
+  margin-top: -12px;
+}
+.delete {
+  position: absolute;
+  left: 112.5%;
+  right: -3.85%;
+  /* bottom: 144px; */
+  margin-top: -12px;
+}
+.profile {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 24px;
+  top: 862px;
+  /* 
+  background: url("IMG-20200213-WA0180_20420-modified(1).png"); */
+}
+
+button,
+select {
+  /* text-transform: none; */
+  color: white;
+  border: white;
+}
+
+/* Student name* */
+
+.studentName {
+  position: absolute;
+  width: 108px;
+  height: 16px;
+  left: 27px;
+  top: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #7f878a;
+}
+/* Textfield/Defualt */
+
+.studentinput {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 396px;
+  height: 34px;
+  left: 27px;
+  top: 38px;
+
+  /* divider */
+
+  border: 1px solid #d2d8e2;
+  border-radius: 10px;
+}
+.class {
+  position: absolute;
+  width: 108px;
+  height: 16px;
+  left: 27px;
+  top: 101px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #7f878a;
+}
+/* Textfield/Defualt */
+
+.classinput {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 396px;
+  height: 34px;
+  left: 27px;
+  top: 124px;
+
+  /* divider */
+
+  border: 1px solid #d2d8e2;
+  border-radius: 10px;
+}
+.classP {
+  position: absolute;
+  width: 208px;
+  height: 16px;
+  left: 27px;
+  top: 158px;
+
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  color: #7f878a;
+}
+.score {
+  position: absolute;
+  width: 108px;
+  height: 16px;
+  left: 27px;
+  top: 204px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #7f878a;
+}
+/* Textfield/Defualt */
+
+.scoreinput {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 396px;
+  height: 34px;
+  left: 27px;
+  top: 225px;
+
+  /* divider */
+
+  border: 1px solid #d2d8e2;
+  border-radius: 10px;
+}
+.scoreP {
+  position: absolute;
+  width: 208px;
+  height: 16px;
+  left: 27px;
+  top: 260px;
+
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  color: #7f878a;
+}
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  background: #ffffff !important;
+  border-radius: 20px !important;
+  height: 420px !important;
+}
+.modal-content {
+  width: 90% !important;
+  border-radius: 1.3rem !important;
+}
+.res {
+  position: absolute;
+  width: 108px;
+  height: 16px;
+  left: 27px;
+  top: 308px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #7f878a;
+}
+.gra {
+  position: absolute;
+  width: 108px;
+  height: 16px;
+  left: 27px;
+  top: 363px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #7f878a;
+}
+.res1 {
+  position: absolute;
+  width: 108px;
+  height: 16px;
+  left: 27px;
+  top: 330px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #7f878a;
+}
+.gra1 {
+  position: absolute;
+  width: 108px;
+  height: 16px;
+  left: 27px;
+  top: 381px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #7f878a;
+}
+.close {
+  /* Button */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+
+  color: #2ca4d8 !important;
+  border: 1px solid #2ca4d8 !important;
+  filter: drop-shadow(0px 2px 20px rgba(44, 164, 216, 0.2)) !important;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.btn-secondary {
+  background-color: white !important;
+}
+.confirm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 10px;
+
+  width: 110px;
+  height: 38px;
+
+  background: #2ca4d8 !important;
+  box-shadow: 0px 2px 20px rgba(44, 164, 216, 0.2) !important;
+  border-radius: 10px;
+}
+.Remove {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 10px;
+
+  width: 110px;
+  height: 38px;
+
+  background: #d82c2c !important;
+  box-shadow: 0px 2px 20px rgba(44, 164, 216, 0.2) !important;
+  border-radius: 10px;
+}
+.profile {
+  position: absolute;
+  width: 107px;
+  height: 18px;
+  left: 24px !important;
+  top: 849px !important;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  line-height: 0.1;
+  color: #242424;
+}
+.profile1 {
+  left: 21px !important;
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 0.1;
+}
+.profile2 {
+  left: 21px !important;
+  position: relative;
+  line-height: 0.1;
+  color: #7f878a;
+}
+h5 {
+  font-size: 2rem !important;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+h1 {
+  font-size: 1.5rem !important;
 }
