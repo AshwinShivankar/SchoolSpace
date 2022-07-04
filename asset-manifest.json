@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SchoolSpace/static/css/main.7783cb42.css",
+    "main.js": "/SchoolSpace/static/js/main.b705510e.js",
+    "static/js/787.fa163848.chunk.js": "/SchoolSpace/static/js/787.fa163848.chunk.js",
+    "static/media/logo.svg": "/SchoolSpace/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SchoolSpace/index.html",
+    "main.7783cb42.css.map": "/SchoolSpace/static/css/main.7783cb42.css.map",
+    "main.b705510e.js.map": "/SchoolSpace/static/js/main.b705510e.js.map",
+    "787.fa163848.chunk.js.map": "/SchoolSpace/static/js/787.fa163848.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7783cb42.css",
+    "static/js/main.b705510e.js"
+  ]
+}
